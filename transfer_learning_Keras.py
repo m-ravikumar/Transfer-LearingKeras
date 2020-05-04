@@ -142,5 +142,4 @@ history_fine_tune = model.fit_generator(
     class_weight='auto')
 
 # Save fine tuned model
-model.save('inceptionv3-fine-tune.model')
-# 
+model.save('inceptionv3-img-classification.model')
