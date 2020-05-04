@@ -5,10 +5,10 @@
 # Copy 1000 "cat" files to the data/train/cat folder, 1000 "dog" files to the data/train/dog folder.
 # Copy 400 different "cat" files to the data/validate/cat folder, 400 different "dog" files to the data/validate/dog folder.
 
-import os
+import os 
 
 from keras.applications.inception_v3 import InceptionV3, preprocess_input
-from keras.models import Model
+from keras.models import Model 
 from keras.layers import Dense, GlobalAveragePooling2D
 from keras.preprocessing.image import ImageDataGenerator
 from keras.optimizers import SGD
